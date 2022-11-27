@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph/file/3eaa696690c2910facd2a.jpg",
     "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ SOCIAL MECHANIC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/SOCIAL-MECHANIC-1997/RHYTHM-MUSIC-BOT",
+    "repository": "https://github.com/kaviyarasan-1997/RHYTHM-MUSIC-BOT",
     "stack": "container",
     "env": {
         "API_ID": {
