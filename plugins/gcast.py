@@ -1,4 +1,3 @@
-# Social mechanic // @Social_mechanic_1997
 
 import asyncio
 from pyrogram import Client, filters
@@ -14,17 +13,17 @@ async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("`✅Sᴛᴀʀᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ...`")
+        wtf = await message.reply("`✅ sᴛᴀʀᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ...`")
         if not message.reply_to_message:
-            await wtf.edit("**__ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴛᴀʀᴛ ʙʀᴏᴀᴅᴄᴀsᴛ...__**")
+            await wtf.edit("**ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴛᴀʀᴛ ʙʀᴏᴀᴅᴄᴀsᴛ...**")
             return
         lmao = message.reply_to_message.text
         async for dialog in aditya.iter_dialogs():
             try:
                 await aditya.send_message(dialog.chat.id, lmao)
                 sent = sent+1
-                await wtf.edit(f"` ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ` \n\n**sᴇɴᴛ ᴛᴏ:** `{sent}` ᴄʜᴀᴛs \n**ғᴀɪʟᴇᴅ ɪɴ:** {failed} ᴄʜᴀᴛs")
+                await wtf.edit(f"`sᴜᴍɪᴛ sɪʀ ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ` \n\n**sᴇɴᴛ ᴛᴏ:** `{sent}` ᴄʜᴀᴛs \n**ғᴀɪʟᴇᴅ ɪɴ:** {failed} ᴄʜᴀᴛs")
                 await asyncio.sleep(3)
             except:
                 failed=failed+1
-        await message.reply_text(f"`✅ɢᴄᴀsᴛ sᴜᴄᴄᴇssғᴜʟʟʏ` \n\n**sᴇɴᴛ ᴛᴏ:** `{sent}` ᴄʜᴀᴛs \n**ғᴀɪʟᴇᴅ ɪɴ:** {failed} ᴄʜᴀᴛs")
+        await message.reply_text(f"`✅ ɢᴄᴀsᴛ sᴜᴄᴄᴇssғᴜʟʟʏ` \n\n**sᴇɴᴛ ᴛᴏ:** `{sent}` ᴄʜᴀᴛs \n**ғᴀɪʟᴇᴅ ɪɴ:** {failed} ᴄʜᴀᴛs")
