@@ -1,5 +1,3 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @socialmechanic
-
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
