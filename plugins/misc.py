@@ -125,7 +125,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**• ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ​ » [ᴅᴀʀᴋxᴍᴜsɪᴄ](t.me/{BOT_USERNAME}) 🍄\n• ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ » {chutiya}\n• sᴇᴀʀᴄʜᴇᴅ ғᴏʀ » {query}**"
+        rep = f"**• ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ​ » [ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ](t.me/{BOT_USERNAME}) 🍄\n• ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ » {}\n• sᴇᴀʀᴄʜᴇᴅ ғᴏʀ » {query}**"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -133,7 +133,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("**» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ​ » [DEVELOPER](t.me/itzyournil})**")
+        m.edit("**» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ​ » [DEVELOPER](https://t.me/TG_BOT_DEVELOPERS})**")
         print(e)
 
     try:
