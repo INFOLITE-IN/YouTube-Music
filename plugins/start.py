@@ -12,20 +12,20 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 DARK_IMG = (
-"https://te.legra.ph/file/24e09283605dd7e6160a1.jpg",
-"https://te.legra.ph/file/2ea6a63d1738eec406e23.jpg",
-"https://te.legra.ph/file/c6dc0b91fd56d5c99871b.jpg",
-"https://te.legra.ph/file/fe68bd3a59c3ea6cbaac0.jpg",
-"https://te.legra.ph/file/3f507b64e8a75b11f93b7.jpg",
-"https://te.legra.ph/file/894061404d8e5d83a303c.jpg",
-"https://te.legra.ph/file/17490b7b7600f2ac232b4.jpg",
-"https://te.legra.ph/file/b23c22fea8b1718280856.jpg",
-"https://te.legra.ph/file/61cad7f5ac55d77a951df.jpg",
-"https://te.legra.ph/file/138690876272a96585f49.jpg",
-"https://te.legra.ph/file/c73b942a4bc30aa56e729.jpg",
-"https://te.legra.ph/file/21eb5abf4888394019c9c.jpg"
-"https://te.legra.ph/file/e7d5d55910092de2b56df.jpg",
-"https://te.legra.ph/file/95e864dfe3a410ccf20fa.jpg",
+"https://telegra.ph/file/1552a8d7fa5846b9d19e1.jpg",
+"https://telegra.ph/file/1552a8d7fa5846b9d19e1.jpg",
+"https://telegra.ph/file/1552a8d7fa5846b9d19e1.jpg",
+"https://telegra.ph/file/1552a8d7fa5846b9d19e1.jpg",
+"https://telegra.ph/file/b7a7cb01680e8e9e6b321.jpg",
+"https://telegra.ph/file/b7a7cb01680e8e9e6b321.jpg",
+"https://telegra.ph/file/b7a7cb01680e8e9e6b321.jpg",
+"https://telegra.ph/file/b7a7cb01680e8e9e6b321.jpg",
+"https://telegra.ph/file/3d0cec920d1ad153f3b39.jpg",
+"https://telegra.ph/file/3d0cec920d1ad153f3b39.jpg",
+"https://telegra.ph/file/3d0cec920d1ad153f3b39.jpg",
+"https://telegra.ph/file/3d0cec920d1ad153f3b39.jpg"
+"https://telegra.ph/file/ae07b7938e195703d2208.jpg",
+"https://telegra.ph/file/ae07b7938e195703d2208.jpg",
 
 )
 
@@ -63,7 +63,7 @@ async def start_(client: Client, message: Message):
 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴀɴᴅ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ᴀɴᴅ ɴᴏ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs
 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [🇧🇩 𝔻𝕒𝕣𝕜 ℕ𝕚𝕝 ](https://t.me/itzyournil)...
+ᴄʜᴇᴄᴋ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ [ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ](https://t.me/TG_BOT_DEVELOPERS)...
 ━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
     [
@@ -71,8 +71,8 @@ async def start_(client: Client, message: Message):
             InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🛟 sᴜᴘᴘᴏʀᴛ", url="https://t.me/itzyournil"),
-            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/itzyournil")
+            InlineKeyboardButton("🛟 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TG_BOT_DEVELOPERS"),
+            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TG_BOT_DEVELOPERS")
         ],
         [
             InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_cmd"),
@@ -92,8 +92,8 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="🛟 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TheSupportBotstt"),
-                InlineKeyboardButton(text="🎃 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TechQuad"),
+                InlineKeyboardButton(text="🛟 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TG_BOT_DEVELOPERS"),
+                InlineKeyboardButton(text="🎃 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TG_BOT_DEVELOPERS"),
             ]
         ]
      ),
@@ -115,8 +115,8 @@ async def ping_pong(client: Client, message: Message):
                 InlineKeyboardButton(text="🎃 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TechQuard"),
             ],
             [
-                InlineKeyboardButton(text="🔐 ʏᴏᴜᴛᴜʙᴇ", url=f"https://www.youtube.com/channel/UCJsr2_2XLrto3E-F5ONTbsw"),
-                InlineKeyboardButton(text="🎓 ᴅᴇᴠᴇᴏᴘᴇʀ", url=f"https://t.me/itzyournil"),
+                InlineKeyboardButton(text="🔐 ʏᴏᴜᴛᴜʙᴇ", url=f"https://www.youtube.com"),
+                InlineKeyboardButton(text="🎓 ᴅᴇᴠᴇᴏᴘᴇʀ", url=f"https://t.me/TG_BOT_DEVELOPERS"),
             ]
         ]
      ),
