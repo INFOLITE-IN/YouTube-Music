@@ -1,9 +1,9 @@
 {
-    "name": "ᴅᴀʀᴋxᴍᴜsɪᴄ",
-    "logo": "https://te.legra.ph/file/086426b04c04a3c16f558.jpg",
-    "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴜᴍɪᴛ ʏᴀᴅᴀᴠ.",
+    "name": "ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ",
+    "logo": "https://telegra.ph/file/b7a7cb01680e8e9e6b321.jpg",
+    "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/zz818529/DarkxMusic",
+    "repository": "https://t.me/TG_BOT_DEVELOPERS",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -27,7 +27,7 @@
             "required": true
         },
         "STRING_SESSION": {
-            "description": "𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝚂𝚝𝚛𝚒𝚗𝚐 𝚂𝚎𝚜𝚜𝚒𝚘𝚗: 𝚄𝚜𝚎 𝚃𝚑𝚎𝚜𝚎 𝙱𝚘𝚝 @Hana_Session_Bot",
+            "description": "𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝚂𝚝𝚛𝚒𝚗𝚐 𝚂𝚎𝚜𝚜𝚒𝚘𝚗: 𝚄𝚜𝚎 𝚃𝚑𝚎𝚜𝚎 𝙱𝚘𝚝 @string_Session",
             "required": true
         }
     },
