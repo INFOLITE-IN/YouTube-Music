@@ -102,17 +102,17 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["ping"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    sumit = await message.reply_photo(
+    youtubemusic = await message.reply_photo(
         random.choice(DARK_IMG),
         caption="ᴩɪɴɢɪɴɢ...",
     )
-    await sumit.edit_text(
+    await youtubemusic.edit_text(
         f"""𝗣 𝗢 𝗡 𝗚 🎉 !! \n `{delta_ping * 1000:.3f} ᴍs`""",
     reply_markup=InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="🛟 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TheSupportBots"),
-                InlineKeyboardButton(text="🎃 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(text="🛟 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TG_BOT_DEVELOPERS"),
+                InlineKeyboardButton(text="🎃 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TG_BOT_DEVELOPERS"),
             ],
             [
                 InlineKeyboardButton(text="🔐 ʏᴏᴜᴛᴜʙᴇ", url=f"https://www.youtube.com"),
