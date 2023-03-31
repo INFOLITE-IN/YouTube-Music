@@ -114,15 +114,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons =  [
                 [
                     InlineKeyboardButton(
-                        "🔗 ɢɪᴛʜᴜʙ", url=f"https://github.com/zz818529/DarkxMusic"),
+                        "🔗 ᴡᴇʙsɪᴛᴇ", url=f"https://github.com/no"),
                     InlineKeyboardButton(
-                        "💌 ʏᴏᴜᴛᴜʙᴇ", url=f"https://www.youtube.com/channel/UCJsr2_2XLrto3E-F5ONTbsw")
+                        "💌 ʏᴏᴜᴛᴜʙᴇ", url=f"no")
                 ],
                 [
                     InlineKeyboardButton(
-                        "👾 ʙᴏᴛ ʟɪsᴛs", url="https://t.me/TechQuardBots"),
+                        "👾 ʙᴏᴛ ʟɪsᴛs", url="https://t.me/TG_BOT_DEVELOPERS"),
                     InlineKeyboardButton(
-                        "🎓 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/itzyournil")
+                        "🎓 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/TG_BOT_DEVELOPERS")
                 ],
                 [
                     InlineKeyboardButton("⟲ ʙᴀᴄᴋ ⟳", callback_data="home")
