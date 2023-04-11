@@ -65,12 +65,8 @@ to get pyrogram string session
       <option value="SCOLLINGO"> SCOLLINGO </option>
       <option value="GOOGLE"> GOOGLE </option>
    </select>
-   <button onclick="getValues();"> Get Values </button>
    <script type="text/javascript">
-      function getValues() {
-         var options = document.getElementById('sample').options;
-         var options_count = document.getElementById('sample').options.length;
-         var value = [];
+   
    
          for(var i = 0; i < options_count; i++) {
             if(options[i].selected) {
