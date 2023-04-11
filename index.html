@@ -56,7 +56,32 @@ to get pyrogram string session
 <h4>ᴄʜᴇᴄᴋ ᴍʏ ɢɪᴛʜᴜʙ ᴘʀᴏғɪʟᴇ ᴀɴᴅ ғᴏʟʟᴏᴡ ᴍᴇ </h4>
  <p><a href="https://github.com/kaviyarasan-1997">kaviyarasan</a> </p>
 <p><a href="https://t.me/ytube_music_robot">𝘿𝙀𝙈𝙊 𝘽𝙊𝙏</a>
-</p>     
+</p>  
+
+   <select id="sample" multiple>
+      <option value="Apples"> Apples </option>
+      <option value="Oranges"> Oranges </option>
+      <option value="Grapes"> Grapes </option>
+      <option value="Bananas"> Bananas </option>
+      <option value="Strawberries"> Strawberries </option>
+   </select>
+   <button onclick="getValues();"> Get Values </button>
+   <script type="text/javascript">
+      function getValues() {
+         var options = document.getElementById('sample').options;
+         var options_count = document.getElementById('sample').options.length;
+         var value = [];
+   
+         for(var i = 0; i < options_count; i++) {
+            if(options[i].selected) {
+               value.push(options[i].value);
+            }
+         }
+   
+         alert(JSON.stringify(value));
+      }
+   </script>
  
 </body>
+</head>
 </html>
